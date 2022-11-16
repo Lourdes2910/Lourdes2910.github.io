@@ -4,20 +4,14 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1> Bienvenidos ami Página: </h1>
+      <img src='FOTOPG.jpg' class='baby'></img>
+    <h1> Bárbara De Lourdes Lagos Corrales </h1>
+    <a target="_blank" href='/curriculum-barbara.pdf'>Curriculum</a>
+    <br></br>
+    <a target="_blank" href='https://github.com/Lourdes2910'>Github</a>
+    <br></br>
+    <a target="_blank" href='https://www.linkedin.com/in/barbara-lagos-corrales-a4a3b0257/'>Linkedin</a>
     </div>
   );
 }
